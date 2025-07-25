@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>UPA Bahasa – UPN Veteran Jatim</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex flex-col min-h-screen font-sans">
+
+<!-- Header -->
+<header class="bg-green-600 text-white relative">
+  <div class="container mx-auto flex items-center justify-between py-4 px-6">
+    <div class="flex items-center space-x-4">
+      <img src="gambar/1.jpg" alt="Circle Logo" class="w-16 h-16 rounded-full">
+      <div>
+        <h1 class="text-2xl font-bold">UPA BAHASA</h1>
+        <h2 class="text-lg">UPN Veteran Jawa Timur</h2>
+      </div>
+    </div>
+
+    <nav class="hidden md:flex space-x-6 text-xl">
+      <a href="#" class="hover:underline">Beranda</a>
+      <a href="#" class="hover:underline">Aktivitas</a>
+      <a href="#" class="hover:underline">Daftar</a>
+      <a href="#" class="hover:underline">Kontak</a>
+    </nav>
+
+    <!-- Hamburger menu for mobile -->
+    <button id="hamburger" class="md:hidden focus:outline-none">
+      <svg class="w-8 h-8" fill="none" stroke="currentColor" stroke-width="2"
+           viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path stroke-linecap="round" stroke-linejoin="round"
+              d="M4 6h16M4 12h16M4 18h16"></path>
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile nav -->
+  <div id="nav-mobile" class="hidden bg-green-400 text-white text-lg">
+    <a href="#" class="block py-2 px-6 hover:bg-green-500">Beranda</a>
+    <a href="#" class="block py-2 px-6 hover:bg-green-500">Aktivitas</a>
+    <a href="#" class="block py-2 px-6 hover:bg-green-500">Daftar</a>
+    <a href="#" class="block py-2 px-6 hover:bg-green-500">Kontak</a>
+  </div>
+
+  <!-- Banner Edukatif -->
+  <div class="relative">
+    <img src="gambar/a372ca697f70e7f393b01dbe675ea93b.jpg" alt="Banner" class="w-full h-[600px] object-cover">
+    <div class="absolute inset-0 bg-black bg-opacity-50"></div>
+    <div class="absolute top-1/2 left-12 transform -translate-y-1/2 text-white space-y-4 max-w-2xl">
+      <h1 class="text-4xl md:text-6xl font-extrabold leading-tight uppercase">
+        EXPLORING OF INDONESIA
+      </h1>
+      <h2 class="text-2xl md:text-3xl italic font-light">Learn the Language, Embrace the Culture</h2>
+      <p class="text-base md:text-lg font-light">
+        The Indonesian Language Center for Foreign Speakers – your gateway to understanding Bahasa Indonesia and experiencing its rich culture in an engaging and fun way.
+      </p>
+      <a href="#"
+         class="inline-block mt-4 px-6 py-3 bg-orange-500 hover:bg-orange-600 text-white text-lg rounded-lg shadow-lg transition">
+        Start Learning
+      </a>
+    </div>
+  </div>
+</header>
+
+  <main class="flex-grow space-y-16">
+
+    <!-- Understanding Section -->
+    <section class="bg-white border-b border-gray-300">
+      <div class="container mx-auto px-6 py-16 space-y-6">
+        <h2 class="text-4xl font-bold">UNDERSTANDING BIPA</h2>
+        <p class="text-lg leading-relaxed text-justify">Lorem ipsum…</p>
+        <p class="text-lg leading-relaxed text-justify">Morbi at aliquet…</p>
+      </div>
+    </section>
+
+    <!-- Programs & Services -->
+    <section class="bg-white border-b border-gray-300">
+      <div class="container mx-auto px-6 py-16">
+        <h2 class="text-4xl font-bold mb-8">PROGRAMS &amp; SERVICES</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="bg-gray-200 rounded-2xl p-8 space-y-4">
+            <h3 class="text-3xl font-semibold">BIPA SHORT COURSE</h3>
+            <p class="text-base">Lorem ipsum dolor sit amet...</p>
+            <a href="#" class="inline-flex items-center bg-green-400 text-white px-6 py-2 rounded-lg hover:bg-green-500">
+              Selengkapnya
+            </a>
+          </div>
+          <div class="bg-gray-200 rounded-2xl p-8 space-y-4">
+            <h3 class="text-3xl font-semibold">TIBA (Tes Bahasa Indonesia Sebagai Bahasa Asing)</h3>
+            <p class="text-base">Lorem ipsum dolor sit amet...</p>
+            <a href="#" class="inline-flex items-center bg-green-400 text-white px-6 py-2 rounded-lg hover:bg-green-500">
+              Selengkapnya
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Short Materials -->
+    <section class="bg-white border-b border-gray-300">
+      <div class="container mx-auto px-6 py-16">
+        <h2 class="text-4xl font-bold mb-8">SHORT MATERIALS</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div class="bg-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold">Material 1</h3>
+            <p class="text-base">Lorem ipsum dolor sit amet...</p>
+          </div>
+          <div class="bg-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold">Material 2</h3>
+            <p class="text-base">Lorem ipsum dolor sit amet...</p>
+          </div>
+          <div class="bg-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold">Material 3</h3>
+            <p class="text-base">Lorem ipsum dolor sit amet...</p>
+          </div>
+          <div class="bg-gray-200 rounded-2xl p-6 hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold">Material 4</h3>
+            <p class="text-base">Lorem ipsum dolor sit amet...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Our Activities -->
+    <section class="bg-white border-b border-gray-300">
+      <div class="container mx-auto px-6 py-16">
+        <h2 class="text-4xl font-bold mb-8">OUR ACTIVITIES</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="bg-yellow-300 rounded-2xl p-6 hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold">Activity 1</h3>
+            <p class="text-base">Lorem ipsum dolor sit amet...</p>
+          </div>
+          <div class="bg-yellow-300 rounded-2xl p-6 hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold">Activity 2</h3>
+            <p class="text-base">Lorem ipsum dolor sit amet...</p>
+          </div>
+          <div class="bg-yellow-300 rounded-2xl p-6 hover:shadow-lg transition">
+            <h3 class="text-2xl font-semibold">Activity 3</h3>
+            <p class="text-base">Lorem ipsum dolor sit amet...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TIBA Detail -->
+    <section class="bg-white border-b border-gray-300">
+      <div class="container mx-auto px-6 py-16 space-y-8">
+        <h2 class="text-4xl font-bold">TIBA (Tes Bahasa Indonesia Sebagai Bahasa Asing)</h2>
+        <p class="text-lg text-justify">Lorem ipsum dolor sit amet…</p>
+        <img src="assets/7671.jpg" alt="TIBA illustration" class="w-full rounded-lg shadow-md">
+        <a href="#" class="inline-block bg-green-400 text-white text-xl px-8 py-3 rounded-lg hover:bg-green-500">
+          Selengkapnya
+        </a>
+      </div>
+    </section>
+  </main>
+
+<!-- Footer -->
+<footer class="relative bg-gray-900 text-white">
+  <div class="container mx-auto px-6 py-16 flex flex-col md:flex-row justify-between">
+    <div>
+      <h3 class="text-2xl font-semibold mb-4">Hubungi Kami</h3>
+      <p>Email: info@upabhasa.id</p>
+      <p>Telepon: +62 123‑4567‑890</p>
+      <p>Alamat: UPN Veteran Jawa Timur, Surabaya</p>
+    </div>
+    <div class="mt-8 md:mt-0">
+      <h3 class="text-2xl font-semibold mb-4">Ikuti Kami</h3>
+      <div class="flex space-x-4">
+        <a href="#" class="hover:text-green-400">Instagram</a>
+        <a href="#" class="hover:text-green-400">Facebook</a>
+        <a href="#" class="hover:text-green-400">Twitter</a>
+      </div>
+    </div>
+  </div>
+  <div class="absolute inset-0 bg-green-500 opacity-20 pointer-events-none"></div>
+</footer>
+
+<!-- JavaScript Menu Mobile -->
+<script>
+  const btn = document.getElementById('hamburger');
+  const menu = document.getElementById('nav-mobile');
+  btn.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+  });
+</script>
+</body>
+</html>
